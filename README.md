@@ -1,15 +1,15 @@
-# CIS 4150 - Merge sort functional testing with PyTest
+## CIS 4150 - Merge sort functional testing with PyTest
 
-# Team Members
+## Team Members
 Al-Rubaye, Harir
 Khan, Aasim
 Magtangob, Ivan
 Nagoor Mohideen, Rehan
 
-# User Manual 
+## User Manual 
 
-## Install PyTest 
+### Install PyTest 
     $ pip install pytest==2.9.1
 
-## Run 
+### Run 
     $ pytest Test_Cases.py
