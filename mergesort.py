@@ -1,3 +1,6 @@
+import sys
+
+
 def merge_sort(alist, start, end):
     '''Sorts the list from indexes start to end - 1 inclusive.'''
     if end - start > 1:
@@ -5,7 +8,8 @@ def merge_sort(alist, start, end):
         merge_sort(alist, start, mid)
         merge_sort(alist, mid, end)
         merge_list(alist, start, mid, end)
- 
+
+
 def merge_list(alist, start, mid, end):
     left = alist[start:mid]
     right = alist[mid:end]
@@ -30,10 +34,13 @@ def merge_list(alist, start, mid, end):
             alist[k] = right[j]
             j = j + 1
             k = k + 1
- 
- 
-alist = input('Enter the list of numbers: ').split()
-alist = [int(x) for x in alist]
+
+
+if len(sys.argv) < 2:
+    print("Usage: python merge_sort.py <space-separated list of numbers>")
+    sys.exit(1)
+
+alist = [int(x) for x in sys.argv[1:]]
 merge_sort(alist, 0, len(alist))
-print('Sorted list: ', end='')
+print('Sorted list:', end=' ')
 print(alist)
