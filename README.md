@@ -1,10 +1,10 @@
 ## CIS 4150 - Merge sort functional testing with PyTest
 
 ## Team Members
-Al-Rubaye, Harir
-Khan, Aasim
-Magtangob, Ivan
-Nagoor Mohideen, Rehan
+Al-Rubaye, Harir<br />
+Khan, Aasim<br />
+Magtangob, Ivan<br />
+Nagoor Mohideen, Rehan<br />
 
 ## User Manual 
 
