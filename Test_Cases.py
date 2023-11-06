@@ -81,13 +81,13 @@ def test_mergesort_invalid_values():
     run_test(input_data, expected_output)
 
 # Values with Whitespace: Test with different types of whitespace
-def test_mergesort_no_arguments():
+def test_mergesort_whitespace():
     input_data = "3 12   6\n 1\t5"
     expected_output = "Sorted list: [1, 3, 5, 6, 12]"
     run_test(input_data, expected_output)
 
 # Values Containing Separators: Test using a value containing comma seperator separators that the program
-def test_mergesort_no_arguments():
+def test_mergesort_seperators():
     input_data = "6,23,7,1"
     expected_output = "Usage: python merge_sort.py <space-separated list of numbers>"
     run_test(input_data, expected_output)
