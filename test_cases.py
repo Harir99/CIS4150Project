@@ -9,7 +9,7 @@ def run_test(input_data, expected_output):
 
 # ---------- VALID TEST CASES ----------
 
-# Random Data: Test with typical, arbitrary values (e.g. [5, 2, 2, 10, 6])
+# Random Data: Test with typical, arbitrary values (e.g. [3, 1, 5, 8, 2, 5, 1, 3])
 @pytest.mark.Valid
 @pytest.mark.Harir
 def test_mergesort_random_data():
